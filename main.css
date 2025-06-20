@@ -1,0 +1,67 @@
+body {
+    background-image: url(images/Starry_Background.png);
+    background-size: cover;
+    height: 100vh
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(7, 120px);
+    grid-template-rows: repeat(6, 120px);
+    margin: 0 auto;
+    justify-content: center;
+    background-color: black;
+}
+
+.cell {
+    border: 5px solid black;
+    background-color: white;
+    border-radius: 25%;
+    outline: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.cell:hover {
+    background-color: rgb(236, 81, 236);
+}
+.cell.red {
+  background-color: red;
+}
+
+.cell.yellow {
+  background-color: yellow;
+}
+.cell img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  z-index: 1;
+}
+
+#start, #restart{
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: orange;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1;
+    padding: 15px 25px;
+    text-align: center;
+    color: red;
+}
+#start {
+    margin-bottom: 40px;
+}
+#startDisplay {
+    color: red;
+    text-align: center;
+    background-color: orange;
+}
