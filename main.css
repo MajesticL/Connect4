@@ -1,7 +1,7 @@
 body {
     background-image: url(images/Starry_Background.png);
     background-size: cover;
-    height: 100vh
+    height: 100vh;
 
 }
 
@@ -64,4 +64,21 @@ body {
     color: red;
     text-align: center;
     background-color: orange;
+}
+#winning-streak {
+    color: white;
+    font-size: 30px;
+    display:flex;
+    justify-content: space-around;
+}
+
+#redWin, #yellowWin {
+    display: flex;
+    gap: 10px;
+}
+#redWin {
+    color: brown;
+}
+#yellowWin {
+    color: #e97451;
 }
