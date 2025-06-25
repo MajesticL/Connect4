@@ -60,7 +60,7 @@ body {
 #start {
     margin-bottom: 40px;
 }
-#startDisplay {
+#startDisplay, #winMessage {
     color: red;
     text-align: center;
     background-color: orange;
@@ -81,4 +81,9 @@ body {
 }
 #yellowWin {
     color: #e97451;
+}
+#winMessage {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 40px;
 }
